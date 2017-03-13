@@ -457,7 +457,7 @@ bot.on('photo', function(msg) {
 
     bot.on('message', (msg) => {
         const chatId = msg.chat.id;
-        var text = `I'm textually impaired. Just images please. help for more on what I could do`;
+        var text = `I'm textually impaired. Just images please. \help for more on what I could do`;
         bot.sendMessage(chatId, text);
         // send a message to the chat acknowledging receipt of their message
     });
