@@ -6,7 +6,7 @@ const token = 'API TOKEN';
 const bot = new TelegramBot(token, {polling: true});
 
 var vision = vision({
-    projectId: 'telegram-160918', 
+    projectId: 'gcp-project-id', 
     keyFilename: './path/to/api/key'
 });
 
