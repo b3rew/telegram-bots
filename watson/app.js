@@ -17,7 +17,11 @@ bot.onText(/\/help/, (msg, match) => {
 
   const chatId = msg.chat.id;
     
-  var text = `Do you ever look at porn and wonder if what you're looking at is actually porn? Watson is here to help. Watson is an artificially intelligent sentient with vision capabilities. It can detect sentiment in faces, discern landmarks, logos, extract text from images, and more. Send Watson a pic and give it a try`;
+  var text = `Do you ever look at porn and wonder if what you're looking at is actually porn? 
+    Watson is here to help. Watson is an artificially intelligent sentient with vision capabilities. 
+    It can detect sentiment in faces, discern landmarks, logos, extract text from images, and more. 
+    Send Watson a pic and give it a try`;
+    
   bot.sendMessage(chatId, text);
 });
 
